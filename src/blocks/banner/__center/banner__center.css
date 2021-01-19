@@ -1,0 +1,10 @@
+.banner__center {
+  position: relative;
+
+  text-align: center;
+
+  background-color: #FEE600;
+  background-image: url(../../../images/bg_header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

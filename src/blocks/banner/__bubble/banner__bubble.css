@@ -1,0 +1,23 @@
+.banner__bubble {
+  position: relative;
+  left: 14%;
+  top: 10.6%;
+
+  width: 10.25em;
+  height: 5.9em;
+  box-sizing: border-box;
+  padding-top: 1.1em;
+  margin: 0;
+
+  font-size: 1.5rem;
+  line-height: 1em;
+
+  background-image: url(../../../images/bg_bubble.svg);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 300px) {
+  .banner__bubble {
+    left: 7%;
+  }
+}

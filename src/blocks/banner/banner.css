@@ -1,0 +1,13 @@
+@import url("./__before/banner__before.css");
+@import url("./__center/banner__center.css");
+@import url("./__bubble/banner__bubble.css");
+@import url("./__logo/banner__logo.css");
+@import url("./__descript/banner__descript.css");
+@import url("./__navigation/banner__navigation.css");
+@import url("./__button/banner__button.css");
+@import url("./__after/banner__after.css");
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 950px) 1fr;
+}

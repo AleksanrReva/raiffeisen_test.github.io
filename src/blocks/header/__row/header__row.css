@@ -1,0 +1,12 @@
+.header__row {
+  max-width: 845px;
+
+  margin: 0 auto;
+  margin-top: 1.3%;
+}
+
+@media (max-width: 950px) {
+  .header__row {
+    width: 90%;
+  }
+}

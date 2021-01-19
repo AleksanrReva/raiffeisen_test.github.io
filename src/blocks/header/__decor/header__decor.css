@@ -1,0 +1,35 @@
+.header__decor {
+  background-image: url(../../../icons/dashed.svg);
+  background-size: 990px;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  left: 17.25%;
+  top: -0.6%;
+
+  height: 6px;
+  width: 80px;
+}
+
+@media (max-width: 1690px) {
+  .header__decor {
+    left: 7.25%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header__decor {
+    left: 2.25%;
+  }
+}
+
+@media (max-width: 1190px) {
+  .header__decor {
+    display: none;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+}

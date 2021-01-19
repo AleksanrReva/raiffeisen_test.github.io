@@ -1,0 +1,9 @@
+.banner__logo {
+  margin-top: 7%;
+}
+
+@media (max-width: 414px) {
+  .banner__logo {
+    width: 80%;
+  }
+}

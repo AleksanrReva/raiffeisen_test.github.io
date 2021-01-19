@@ -1,0 +1,20 @@
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 57.3%;
+}
+
+@media (max-width: 600px) {
+  .navigation__list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+
+    flex-direction: column;
+    width: unset;
+
+    background-color: #FFFFFF;
+  }
+}

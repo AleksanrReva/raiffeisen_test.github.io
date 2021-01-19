@@ -1,0 +1,16 @@
+.banner__navigation {
+  display: flex;
+  justify-content: center;
+
+  width: 90.35%;
+  box-sizing: border-box;
+  margin-top: 3.4%;
+  padding-top: 2.25%;
+  padding-bottom: 0.7%;
+  padding-left: 12%;
+
+  background-image: url(../../../icons/dashed_corner.svg);
+  background-size: 977px;
+  background-position: top right;
+  background-repeat: no-repeat;
+}

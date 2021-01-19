@@ -1,0 +1,24 @@
+.banner__descript {
+  font-size: 1.48rem;
+}
+
+@media (max-width: 540px) {
+  .banner__descript {
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner__descript {
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding: 0 11%;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner__descript {
+    padding: 0 9%;
+  }
+}

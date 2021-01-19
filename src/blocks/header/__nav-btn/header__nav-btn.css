@@ -1,0 +1,28 @@
+.header__nav-btn {
+  display: none;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .header__nav-btn {
+    display: block;
+    position: relative;
+
+    width: 46px;
+    height: 46px;
+
+    border-style: none;
+    outline-style: none;
+
+    background-image: url(../../../icons/hamburger.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__nav-btn {
+    width: 32px;
+    height: 32px;
+  }
+}

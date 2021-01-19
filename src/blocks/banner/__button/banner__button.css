@@ -1,0 +1,7 @@
+.banner__button {
+  display: inline-block;
+
+  box-sizing: border-box;
+  margin: 1% 1.5%;
+  padding: 0.65em 1em;
+}

@@ -1,0 +1,9 @@
+.navigation__open {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 411px) {
+  .navigation__open {
+    font-size: 1rem;
+  }
+}
